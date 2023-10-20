@@ -1,0 +1,31 @@
+
+
+header{
+    display: flex;
+   padding: 5px 10px;
+    background-color: var(--black);
+    border-bottom: .1px solid var(--gray);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo i{
+    font-size: 20px;
+    color: white;
+}
+.logo h2{
+    color: white;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+
+    font-size: 20px;
+    color: var(--branco);
+}

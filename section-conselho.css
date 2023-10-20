@@ -1,0 +1,23 @@
+
+
+
+.espaço{
+    padding: 40px 0px;
+    margin: 0px 10px;
+    border-bottom: 5px solid var(--orange);
+}
+.conselho{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+}
+.conselho span{
+    font-size: 18px;
+    color: var(--black);
+}
+.conselho p{
+    font-size: 20px;
+    line-height: 1.7;
+}

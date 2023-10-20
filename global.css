@@ -1,0 +1,46 @@
+
+
+@import url(./header.css);
+@import url(./section-aprendizado.css);
+@import url(./section-mentorfrontend.css);
+@import url(./section-class.css);
+@import url(./section-codigo.css);
+@import url(./section-conselho.css);
+@import url(./section-comentarios.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: var(--black); */
+    background-image: url(./imagens/challenge-css.png);
+    /* background-color: gray; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+:root{
+    --black: #000000;
+    --branco: #ffffff;
+    --gray: #abb8c3;
+    --pink: #f78da7;
+    --red: #cf2e2e;
+    --orange: #ff6900;
+    --ligth-green: #7bdcb5;
+    --green: #00d084;
+    --ligth-blue: #8ed1fc;
+    --blue: #0693e3;
+    --roxo: #9b51e0;
+    --gradient:  linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    --borda: linear-gradient(red, blue);
+
+
+
+
+}
+
+

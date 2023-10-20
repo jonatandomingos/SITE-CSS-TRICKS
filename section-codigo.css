@@ -1,0 +1,27 @@
+
+.codigo{
+    display: flex;
+}
+.titulocodigo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.titulocodigo h2{
+    font-size: 40px;
+    color: var(--blue);
+    text-decoration: underline;
+}
+.textocodigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 20px;
+}
+.textocodigo p{
+    font-size: 20px;
+    color: #000;
+    line-height: 1.7;
+}

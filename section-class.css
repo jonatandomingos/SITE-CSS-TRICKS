@@ -1,0 +1,30 @@
+
+.classificaçao{
+    display: flex;
+    gap: 40px;
+}
+
+.titulo-class{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+}
+.titulo-class h2{
+    font-size: 40px;
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.texto-class{
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 100px;
+    row-gap: 20px;
+}
+.texto-class p{
+    font-size: 20px;
+    color: #000;
+    line-height: 1.7;
+}
